@@ -26,6 +26,8 @@ RUN \
     && make libmmbackend.o \
     && make mqtt.so \
     && make midi.so \
+    && make rtpmidi.so \
+    && make loopback.so \
     && cd .. \
     && make midimonster \
     && make install
