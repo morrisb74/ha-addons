@@ -3,3 +3,7 @@
 ## 0.0.1
 
 - First version, support MIDI2MQTT
+
+## 0.0.2a
+
+- Adding RTPMidi support
