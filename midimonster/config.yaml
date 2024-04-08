@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: MIDIMonster
-version: "0.0.2a.002"
+version: "0.0.2a.003"
 slug: midimonster
 description: Use MIDI devices in Home Assistant
 url: "https://github.com/morrisb74/ha-addons/tree/main/midimonster"
