@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: MIDIMonster
-version: "0.0.1"
+version: "0.0.2a"
 slug: midimonster
 description: Use MIDI devices in Home Assistant
-url: "https://github.com/wildekek/ha-addons/tree/main/midimonster"
+url: "https://github.com/morrisb74/ha-addons/tree/main/midimonster"
 stage: experimental
 arch:
   - armhf
@@ -15,6 +15,10 @@ services:
   - mqtt:need
 apparmor: false
 full_access: true
+ports:
+  5004/udp: 5004
+ports_description:
+  5004/udp: RTPMidi
 #privileged: 
 #  - SYS_RESOURCE
 #udev: true
